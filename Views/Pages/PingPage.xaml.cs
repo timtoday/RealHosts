@@ -74,7 +74,7 @@ public partial class PingPage : Page
         using HttpClient client = new HttpClient();
         try
         {
-            HttpResponseMessage response = await client.GetAsync($"https://sites.ipaddress.com/{domain.Domain}");
+            HttpResponseMessage response = await client.GetAsync($"https://www.ipaddress.com/website/{domain.Domain}");
             if (response.IsSuccessStatusCode)
             {
                 string responseContent = await response.Content.ReadAsStringAsync();
@@ -114,16 +114,16 @@ public partial class PingPage : Page
             }
             else
             {
-                Console.WriteLine($"Error: {response.StatusCode}");
+                //Console.WriteLine($"Error: {response.StatusCode}");
             }
         }
         catch (HttpRequestException ex)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            //Console.WriteLine($"Error: {ex.Message}");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            //Console.WriteLine($"Error: {ex.Message}");
         }
         return new DataDomains { };
     }
@@ -141,7 +141,7 @@ public partial class PingPage : Page
                 PingReply reply = await pingSender.SendPingAsync(ipAddress, timeout);
                 if (reply.Status == IPStatus.Success)
                 {
-                    Console.WriteLine($"Ping Success，TTL: {reply.Options.Ttl}, Time: {reply.RoundtripTime} ms");
+                   // Console.WriteLine($"Ping Success，TTL: {reply.Options.Ttl}, Time: {reply.RoundtripTime} ms");
                     if (minSec > reply.RoundtripTime)
                     {
                         minSec = reply.RoundtripTime;
@@ -149,12 +149,12 @@ public partial class PingPage : Page
                 }
                 else
                 {
-                    Console.WriteLine($"Ping Fail，Status: {reply.Status}");
+                   // Console.WriteLine($"Ping Fail，Status: {reply.Status}");
                 }
             }
             catch (PingException e)
             {
-                Console.WriteLine($"Ping Error: {e.Message}");
+                //Console.WriteLine($"Ping Error: {e.Message}");
             }
         }
         return minSec;
@@ -221,11 +221,11 @@ public partial class PingPage : Page
         }
         catch (FileNotFoundException)
         {
-            Console.WriteLine($"File {filePath} Not Found。");
+           // Console.WriteLine($"File {filePath} Not Found。");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Read File Error: {ex.Message}");
+           // Console.WriteLine($"Read File Error: {ex.Message}");
         }
         return lines;
     }
@@ -245,7 +245,7 @@ public partial class PingPage : Page
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Save File Error: {ex.Message}");
+           // Console.WriteLine($"Save File Error: {ex.Message}");
         }
     }
 
