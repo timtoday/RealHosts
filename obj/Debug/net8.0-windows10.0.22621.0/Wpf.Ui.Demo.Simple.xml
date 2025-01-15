@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealHosts</name>
+    </assembly>
+    <members>
+        <member name="T:RealHosts.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:RealHosts.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:RealHosts.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:RealHosts.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:RealHosts.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:RealHosts.Views.Pages.DashboardPage">
+            <summary>
+            Interaction logic for DashboardPage.xaml
+            </summary>
+            <summary>
+            DashboardPage
+            </summary>
+        </member>
+        <member name="M:RealHosts.Views.Pages.DashboardPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:RealHosts.Views.Pages.DataPage">
+            <summary>
+            Interaction logic for DataView.xaml
+            </summary>
+            <summary>
+            DataPage
+            </summary>
+        </member>
+        <member name="M:RealHosts.Views.Pages.DataPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:RealHosts.Views.Pages.SettingsPage">
+            <summary>
+            Interaction logic for SettingsPage.xaml
+            </summary>
+            <summary>
+            SettingsPage
+            </summary>
+        </member>
+        <member name="M:RealHosts.Views.Pages.SettingsPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

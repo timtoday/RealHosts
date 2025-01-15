@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealHosts</name>
+    </assembly>
+    <members>
+        <member name="T:RealHosts.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:RealHosts.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:RealHosts.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:RealHosts.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:RealHosts.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:RealHosts.Views.Pages.DashboardPage">
+            <summary>
+            Interaction logic for DashboardPage.xaml
+            </summary>
+            <summary>
+            DashboardPage
+            </summary>
+        </member>
+        <member name="M:RealHosts.Views.Pages.DashboardPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:RealHosts.Views.Pages.PingPage">
+            <summary>
+            </summary>
+            <summary>
+            PingPage
+            </summary>
+        </member>
+        <member name="M:RealHosts.Views.Pages.PingPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:RealHosts.Views.Pages.SettingsPage">
+            <summary>
+            Interaction logic for SettingsPage.xaml
+            </summary>
+            <summary>
+            SettingsPage
+            </summary>
+        </member>
+        <member name="M:RealHosts.Views.Pages.SettingsPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
